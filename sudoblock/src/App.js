@@ -12,7 +12,7 @@ console.log(player1,player2)
     <div >
       <div><h1 style={{fontSize:'150px',display: "flex",color:'#634b30',fontFamily:'impact',
         justifyContent: "center",
-        }}>CONTACT 4</h1></div>
+        }}>CONNECT 4</h1></div>
       {!verification
       ?<Input getPlayer1={setPlayer1} getPlayer2={setPlayer2} setVrification={setVrification}/>
       :<Game player1={player1} player2={player2}/>
